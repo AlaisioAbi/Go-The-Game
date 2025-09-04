@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2oij61jefi5l"]
+
+[ext_resource type="Script" uid="uid://dcoojcnw85u1s" path="res://Audio/BackgroundMusic.cs" id="1_bm83v"]
+[ext_resource type="AudioStream" uid="uid://8fdhxq74ejqh" path="res://Audio/Background Music.mp3" id="1_u41k2"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bm83v")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_u41k2")

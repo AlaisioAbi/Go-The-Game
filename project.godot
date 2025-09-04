@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Go the game"
+run/main_scene="uid://d0cg7rmwl16oh"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+config/icon="res://Images/icon.svg"
+
+[autoload]
+
+SceneTracker="*res://SceneTracker.cs"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=4
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="Go the game"

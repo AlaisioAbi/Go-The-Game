@@ -1,0 +1,13 @@
+res://Login System/LoginSystem.cs
+res://MainMenu.tscn
+res://new_style_box_flat.tres
+res://Login System/LoginSystem.tscn
+res://Login System/SignIn.tscn
+res://Login System/Login.tscn
+res://Login System/ForgotPassword.tscn
+res://Login System/ForgotPassword.cs
+res://SceneTracker.cs
+res://Login System/SignIn.cs
+res://Login System/Login.cs
+res://MainMenu.cs
+res://Audio/BackgroundMusic.cs

@@ -1,0 +1,311 @@
+[gd_scene load_steps=39 format=3 uid="uid://deuahmuequl0b"]
+
+[ext_resource type="Script" uid="uid://dnvk20o7dilqs" path="res://Login System/Login.cs" id="1_v3110"]
+[ext_resource type="Texture2D" uid="uid://c0q06irnpeiqh" path="res://Images/GoBoard.png" id="2_e2k4g"]
+[ext_resource type="FontFile" uid="uid://cykh6m5y4js7c" path="res://Harukaze.ttf" id="2_kjk8w"]
+[ext_resource type="StyleBox" uid="uid://clw576vs6wplr" path="res://new_style_box_flat.tres" id="3_bsjg7"]
+[ext_resource type="Texture2D" uid="uid://dvvyhehrrb74k" path="res://Images/left_9666497.png" id="4_gt6pi"]
+[ext_resource type="Texture2D" uid="uid://biplak7wmpfok" path="res://Images/arrow_14610795.png" id="5_5g7m2"]
+[ext_resource type="Texture2D" uid="uid://c5ugn536y66ee" path="res://Images/hidden.png" id="7_6xxkx"]
+[ext_resource type="FontFile" uid="uid://b8p0224m0w6sj" path="res://Spell of Asia.ttf" id="8_d48df"]
+[ext_resource type="Texture2D" uid="uid://cfk648vfrharn" path="res://Images/eye.png" id="8_lljkg"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_03vkm"]
+texture = ExtResource("2_e2k4g")
+modulate_color = Color(0.544974, 0.544974, 0.544974, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6xxkx"]
+texture = ExtResource("4_gt6pi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lljkg"]
+texture = ExtResource("4_gt6pi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d48df"]
+texture = ExtResource("4_gt6pi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t2100"]
+texture = ExtResource("4_gt6pi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5hf3n"]
+texture = ExtResource("4_gt6pi")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vicnt"]
+texture = ExtResource("5_5g7m2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r81gb"]
+texture = ExtResource("5_5g7m2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rwebk"]
+texture = ExtResource("5_5g7m2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b3k3y"]
+texture = ExtResource("5_5g7m2")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e2k4g"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03vkm"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kjk8w"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gt6pi"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5g7m2"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bsjg7"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6xxkx"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lljkg"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d48df"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2100"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5hf3n"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vicnt"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r81gb"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rwebk"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xj7a0"]
+texture = ExtResource("7_6xxkx")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wdyqg"]
+texture = ExtResource("8_lljkg")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2kq2b"]
+texture = ExtResource("8_lljkg")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jh8h6"]
+texture = ExtResource("7_6xxkx")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d1h14"]
+texture = ExtResource("7_6xxkx")
+
+[node name="Login" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v3110")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_03vkm")
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 2
+offset_right = 55.0
+offset_bottom = 47.0
+theme_override_fonts/font = ExtResource("2_kjk8w")
+theme_override_styles/focus = SubResource("StyleBoxTexture_6xxkx")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxTexture_lljkg")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_d48df")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxTexture_t2100")
+theme_override_styles/hover = SubResource("StyleBoxTexture_5hf3n")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxTexture_vicnt")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_r81gb")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxTexture_rwebk")
+theme_override_styles/normal = SubResource("StyleBoxTexture_b3k3y")
+text = " "
+
+[node name="Username" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 203.0
+offset_right = 588.0
+offset_bottom = 306.0
+theme_override_font_sizes/font_size = 45
+theme_override_styles/focus = SubResource("StyleBoxFlat_e2k4g")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_03vkm")
+theme_override_styles/normal = SubResource("StyleBoxFlat_kjk8w")
+placeholder_text = "Enter Your Username"
+
+[node name="Password" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 462.0
+offset_right = 588.0
+offset_bottom = 559.0
+theme_override_font_sizes/font_size = 45
+theme_override_styles/focus = SubResource("StyleBoxFlat_gt6pi")
+theme_override_styles/read_only = SubResource("StyleBoxFlat_5g7m2")
+theme_override_styles/normal = SubResource("StyleBoxFlat_bsjg7")
+placeholder_text = "Enter Your Password"
+secret = true
+secret_character = "#"
+
+[node name="Login" type="Button" parent="."]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 735.0
+offset_right = 636.0
+offset_bottom = 846.0
+theme_override_fonts/font = ExtResource("2_kjk8w")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_6xxkx")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_lljkg")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_d48df")
+theme_override_styles/hover = SubResource("StyleBoxFlat_t2100")
+theme_override_styles/pressed_mirrored = ExtResource("3_bsjg7")
+theme_override_styles/pressed = ExtResource("3_bsjg7")
+theme_override_styles/normal_mirrored = ExtResource("3_bsjg7")
+theme_override_styles/normal = ExtResource("3_bsjg7")
+text = "Login"
+
+[node name="ErrorMessage" type="Label" parent="."]
+layout_mode = 0
+offset_left = 636.0
+offset_top = 163.0
+offset_right = 1797.0
+offset_bottom = 519.0
+theme_override_fonts/font = ExtResource("8_d48df")
+theme_override_font_sizes/font_size = 75
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 45.0
+offset_right = 1869.0
+offset_bottom = 163.0
+theme_override_fonts/normal_font = ExtResource("2_kjk8w")
+theme_override_fonts/mono_font = ExtResource("2_kjk8w")
+theme_override_fonts/italics_font = ExtResource("2_kjk8w")
+theme_override_fonts/bold_italics_font = ExtResource("2_kjk8w")
+theme_override_fonts/bold_font = ExtResource("2_kjk8w")
+theme_override_font_sizes/bold_italics_font_size = 75
+theme_override_font_sizes/italics_font_size = 75
+theme_override_font_sizes/mono_font_size = 75
+theme_override_font_sizes/normal_font_size = 75
+theme_override_font_sizes/bold_font_size = 75
+bbcode_enabled = true
+text = "[center][b]Login"
+
+[node name="ForgotPassword" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 990.0
+offset_top = 735.0
+offset_right = 1319.0
+offset_bottom = 846.0
+theme_override_fonts/font = ExtResource("2_kjk8w")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_5hf3n")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_vicnt")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_r81gb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_rwebk")
+theme_override_styles/pressed_mirrored = ExtResource("3_bsjg7")
+theme_override_styles/pressed = ExtResource("3_bsjg7")
+theme_override_styles/normal_mirrored = ExtResource("3_bsjg7")
+theme_override_styles/normal = ExtResource("3_bsjg7")
+text = "Forgot Password"
+
+[node name="ViewPassword" type="Button" parent="."]
+layout_mode = 0
+offset_left = 605.0
+offset_top = 486.0
+offset_right = 656.0
+offset_bottom = 545.0
+theme_override_styles/hover = SubResource("StyleBoxTexture_xj7a0")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxTexture_wdyqg")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_2kq2b")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxTexture_jh8h6")
+theme_override_styles/normal = SubResource("StyleBoxTexture_d1h14")
+toggle_mode = true
+
+[connection signal="pressed" from="Back" to="." method="OnBackPressed"]
+[connection signal="pressed" from="Login" to="." method="OnLoginPressed"]
+[connection signal="pressed" from="ForgotPassword" to="." method="OnForgotPasswordPressed"]
+[connection signal="toggled" from="ViewPassword" to="." method="OnViewPasswordToggled"]

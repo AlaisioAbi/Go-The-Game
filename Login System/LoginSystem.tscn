@@ -1,0 +1,174 @@
+[gd_scene load_steps=22 format=3 uid="uid://btfysx8m331to"]
+
+[ext_resource type="Script" uid="uid://cf185nnuptlwv" path="res://Login System/LoginSystem.cs" id="1_cph2k"]
+[ext_resource type="FontFile" uid="uid://cykh6m5y4js7c" path="res://Harukaze.ttf" id="2_qkxx2"]
+[ext_resource type="Texture2D" uid="uid://c0q06irnpeiqh" path="res://Images/GoBoard.png" id="2_t1moo"]
+[ext_resource type="StyleBox" uid="uid://clw576vs6wplr" path="res://new_style_box_flat.tres" id="3_utvoq"]
+[ext_resource type="Texture2D" uid="uid://dvvyhehrrb74k" path="res://Images/left_9666497.png" id="5_54nhk"]
+[ext_resource type="Texture2D" uid="uid://biplak7wmpfok" path="res://Images/arrow_14610795.png" id="5_t1moo"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_54nhk"]
+texture = ExtResource("2_t1moo")
+modulate_color = Color(0.544974, 0.544974, 0.544974, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qkxx2"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_utvoq"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t1moo"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_54nhk"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w1812"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dsniu"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o3swm"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8w1c1"]
+bg_color = Color(0.708265, 0.56382, 0.323509, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+shadow_size = 7
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dsniu"]
+texture = ExtResource("5_54nhk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o3swm"]
+texture = ExtResource("5_54nhk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8w1c1"]
+texture = ExtResource("5_54nhk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8l5rg"]
+texture = ExtResource("5_54nhk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rtpol"]
+texture = ExtResource("5_54nhk")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w1812"]
+texture = ExtResource("5_t1moo")
+
+[node name="Login System" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cph2k")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_54nhk")
+
+[node name="Login" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 466.0
+offset_top = 380.0
+offset_right = 663.0
+offset_bottom = 483.0
+
+[node name="Login" type="Button" parent="Login"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_qkxx2")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_qkxx2")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_utvoq")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_t1moo")
+theme_override_styles/hover = SubResource("StyleBoxFlat_54nhk")
+theme_override_styles/pressed_mirrored = ExtResource("3_utvoq")
+theme_override_styles/pressed = ExtResource("3_utvoq")
+theme_override_styles/normal_mirrored = ExtResource("3_utvoq")
+theme_override_styles/normal = ExtResource("3_utvoq")
+text = "Login"
+
+[node name="SignIn" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1247.0
+offset_top = 380.0
+offset_right = 1455.0
+offset_bottom = 483.0
+
+[node name="SignIn" type="Button" parent="SignIn"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_qkxx2")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_w1812")
+theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_dsniu")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_o3swm")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8w1c1")
+theme_override_styles/pressed_mirrored = ExtResource("3_utvoq")
+theme_override_styles/pressed = ExtResource("3_utvoq")
+theme_override_styles/normal_mirrored = ExtResource("3_utvoq")
+theme_override_styles/normal = ExtResource("3_utvoq")
+text = " Sign-Up"
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 2
+offset_right = 59.0
+offset_bottom = 50.0
+theme_override_fonts/font = ExtResource("2_qkxx2")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/focus = SubResource("StyleBoxTexture_dsniu")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxTexture_o3swm")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_8w1c1")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxTexture_8l5rg")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rtpol")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxTexture_w1812")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_w1812")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxTexture_w1812")
+theme_override_styles/normal = SubResource("StyleBoxTexture_w1812")
+
+[connection signal="pressed" from="Login/Login" to="." method="OnLoginPressed"]
+[connection signal="pressed" from="SignIn/SignIn" to="." method="OnSignInPressed"]
+[connection signal="pressed" from="Back" to="." method="OnBackPressed"]
